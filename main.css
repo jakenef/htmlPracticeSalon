@@ -1,7 +1,7 @@
 .banner-img{
     display: flex;
     align-items: center;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hairsalonwallpaper.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("public/hairsalonwallpaper.jpg");
     height: 300px;
     max-height: 50vh;
     background-position: center;
@@ -13,8 +13,12 @@
 
 .left-centered{
     display: flex;
-    max-width: 50vw;
+    max-width: 40vw;
     margin-left: 3em;
     vertical-align: middle;
     max-height: 250px;
+}
+
+.c-row{
+    margin-top: 1em;
 }
